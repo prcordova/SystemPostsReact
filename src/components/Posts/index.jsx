@@ -3,7 +3,7 @@ import React from 'react'
 import { PostCard } from '../PostCard'
 
 export const Posts = ({ posts }) => (
-  <div className="App" className="posts">
+  <div className="App posts">
     {posts.map(post =>
     (
       <PostCard

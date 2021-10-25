@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './styles/global-styles.css';
-
 import { Home } from './templates/Home';
 
 ReactDOM.render(
@@ -10,5 +9,3 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById('root')
 );
-
-
